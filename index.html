@@ -1,33 +1,90 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;1,300;1,700&display=swap"
-        rel="stylesheet">
-    <title>Página Restaurant</title>
-</head>
-
-<body>
-    <div class="cont-header">
-        <div class="cont-logo">
-            <img src="./img/logo.png" alt="logo">
-            <h4>FOODE</h4>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+        <H2>Ejercicio tablas</H2>
+        <div class= contenedor1>
+        <label for=X> X </label>
+        <input type="number" id="X">
+        <label for=R> R </label>
+        <input type="number" id="R">
+        <label for=Y> Y </label>
+        <input type="number" id="Y">
+        <label for=S> S </label>
+        <input type="number" id="S">
+        <label for=L> L </label>
+        <input type="number" id="L">
+        <label for=P> P </label>
+        <input type="number" id="P">
         </div>
-        <nav>
-            <ul class="menu">
-                <li><a class="link" href="#">Inicio</a></li>
-                <li><a class="link" href="#">Recetas</a></li>
-                <li><a class="link" href="#">Sobre Nosotros</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="cont-banner">
-        <h1>HOLA</h1>
-    </div>
-</body>
-
+        <div class= contenedor2>
+            <label for=T> T </label>
+            <input type="number" id="T">
+            <label for=G> G </label>
+            <input type="number" id="G">
+            <label for=A> A </label>
+            <input type="number" id="A">
+            <label for=J> J </label>
+            <input type="number" id="J">
+            <label for=W> W </label>
+            <input type="number" id="W">
+            <label for=Z> Z </label>
+            <input type="number" id="Z">
+            </div>
+            <label for="operacion">Seleccione las operaciones:</label>
+            <select name="operacion" id="operacion">
+                <option value="1">ejercicio 1</option>
+                <option value="2">ejercicio 2</option>
+                <option value="3">ejercicio 3</option>
+            </select>
+        <button id="boton1">Entregar</button>
+    
+        <H3>Los valores finales son: </H3>
+        <div class= contenedor>
+           <table id=tabla1>
+               <tr>
+               <th>X</th>
+               <th>R</th>
+               <th>Y</th>
+               <th>S</th>
+               <th>L</th>
+               <th>P</th>
+            </tr>
+            <tr>
+                <th> <h4 id=X2></h4>  </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+             </tr>
+           </table>
+            </div>
+            <div class= contenedor>
+                <table id=tabla2>
+                    <tr>
+                    <th>T</th>
+                    <th>G</th>
+                    <th>A</th>
+                    <th>J</th>
+                    <th>W</th>
+                    <th>Z</th>
+                 </tr>
+                 <tr>
+                     <th id=T2> </th>
+                     <th> </th>
+                     <th> </th>
+                     <th> </th>
+                     <th> </th>
+                     <th> </th>
+                  </tr>
+                </table>
+         
+                </div>
+            </div>
+           <script src=app.js></script>
+    </body>
 </html>

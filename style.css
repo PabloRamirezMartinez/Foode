@@ -5,51 +5,88 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
-}
-.cont-header{
     display: flex;
-    height: 15vh;
-    width: 90vw;
-    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
-.cont-logo {
-    display: flex;
-    flex: 2;
-    align-items: center;
+.main{
+    height: 100vh;
+    background: linear-gradient(70deg,#e92efb,#440bd4);
 }
-  
-.cont-logo img{
-    display: flex;
-    height: 80%;
-    margin: 3%;
+h2{
+    color: white;
+    margin: 20px;
 }
-.cont-logo h4 {
-    display: flex;
-    font-family: 'Poppins', sans-serif;
+h3 {
+    color: white;
 }
+#boton1 {
+    height: 2rem;
+    width: 6rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    margin: 30px 40px;
+    font-size: 16px;
+    cursor: pointer;
 
-nav {
-    display: flex;
-    flex: 1;
-    align-items: center;
+}
+input {
+    margin: 15px;
+    border-radius: 15px;
+    background:linear-gradient(70deg,#01ffc3,#9d72ff);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
+    height: 25px;
+    width: 120px;
+    border: none;
+    filter: drop-shadow(5px 5px 5px #ea2efb7e);
 }
-nav ul{
+label {
+    color: white;
+}
+.contenedor{
     display: flex;
-    list-style: none;  
-    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+
 }
-.link{
-    margin:0px 10px 0px 10px;
-    justify-content: space-around;
-    text-decoration: none;
-    color: lightslategray;
+#tabla1 #tabla2 {
+    display: flex;
+    margin: 50px auto;
+    border-radius: 15px;
+    width: 50vw;
+   
 }
-.cont-banner{
-    width: 90vw;
-    height: 40vh;
-    background-image: url('banner.webp');
-    margin: auto;
+#operacion {
+    margin: 15px;
+    border-radius: 15px;
+    background:linear-gradient(70deg,#01ffc3,#9d72ff);
+    color:purple;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    height: 25px;
+    width: 150px;
+    border: none;
+    filter: drop-shadow(5px 5px 5px #ea2efb7e);
+
+}
+tr th {
+    
+    border-radius: 15px;
+    height: 80px;
+    width: 150px;
+    background:linear-gradient(70deg,#01ffc3,#9d72ff);
+    filter: drop-shadow(5px 5px 5px #ea2efb7e);
+    color: white;
+    font-size: 25px;
+    
+
 }
