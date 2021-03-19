@@ -12,7 +12,7 @@ body{
     
 }
 .main{
-    height: 100vh;
+    height: max-content;
     background: linear-gradient(70deg,#e92efb,#440bd4);
 }
 h2{
@@ -20,6 +20,9 @@ h2{
     margin: 20px;
 }
 h3 {
+    color: white;
+}
+h4 {
     color: white;
 }
 #boton1 {
@@ -35,7 +38,7 @@ h3 {
 
 }
 input {
-    margin: 15px;
+    margin: 5px;
     border-radius: 15px;
     background:linear-gradient(70deg,#01ffc3,#9d72ff);
     color: white;
@@ -43,10 +46,56 @@ input {
     font-weight: bold;
     text-align: center;
     height: 25px;
-    width: 120px;
+    width: 80px;
+    
     border: none;
     filter: drop-shadow(5px 5px 5px #ea2efb7e);
 }
+.contenedor1{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "x r y s l p" "X R Y S L P";
+  width: auto;
+  margin: auto;
+}
+
+.x {grid-area:"x"}
+.r{ grid-area: "r";}
+.y{grid-area: "y";}
+.s{grid-area: "s";}
+.l{grid-area:"l";}
+.p{grid-area:"p";}
+
+#X {grid-area: "X";}
+#R{ grid-area: "R";}
+#Y{grid-area: "Y";}
+#S{grid-area: "S";}
+#L{grid-area:"L";}
+#P{grid-area:"P";}
+
+.contenedor2 {
+    display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "t g a j w z" "T G A J W Z";
+  width: auto;
+  margin: auto;;
+}
+.t{grid-area:"t"}
+.g{grid-area:"g";}
+.a{grid-area:"a";}
+.j{grid-area:"j";}
+.w{grid-area:"w";}
+.z{grid-area:"z";}
+
+#T{grid-area:"T";}
+#G{grid-area:"G";}
+#A{grid-area:"A";}
+#J{grid-area:"J";}
+#W{grid-area:"W";}
+#Z{grid-area:"Z";}
+
 label {
     color: white;
 }
@@ -63,6 +112,27 @@ label {
     border-radius: 15px;
     width: 50vw;
    
+}
+
+#tabla1 td {
+    border-radius: 15px;
+    height: 80px;
+    width: 150px;
+    background:linear-gradient(70deg,#01ffc3,#9d72ff);
+    filter: drop-shadow(5px 5px 5px #ea2efb7e);
+    color: white;
+    font-size: 25px;
+
+}
+#tabla2 td {
+    border-radius: 15px;
+    height: 80px;
+    width: 150px;
+    background:linear-gradient(70deg,#01ffc3,#9d72ff);
+    filter: drop-shadow(5px 5px 5px #ea2efb7e);
+    color: white;
+    font-size: 25px;
+
 }
 #operacion {
     margin: 15px;
