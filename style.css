@@ -10,12 +10,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(70deg,#e92efb,#440bd4);
     
-}
-.main{
-    height: 100vmax;
-   
-    
-}
+}    
+
 h2{
     color: white;
     margin: 0px auto 50px auto;
