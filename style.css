@@ -161,7 +161,10 @@ tr th {
 @media (max-width:900px){
     .main{
         padding-top: 100px;
-        width: auto;
+        width: 100vw;
+    }
+    .body {
+        width: 100vw;
     }
     .titulo{
         font-size: 50px;
@@ -171,7 +174,7 @@ tr th {
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: "x r y" "s l p" "X R Y" "S L P";
-        width: auto;
+        width: 100vw;
         margin: 0px auto;
       }
       
@@ -194,7 +197,7 @@ tr th {
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: "t g a" "j w z" "T G A" "J W Z";
-        width: auto;
+        width: 100vw;
         margin: 0px auto;;
       }
       .t{grid-area:"t"}
