@@ -5,19 +5,20 @@
 }
 
 body{
-    display: flex;
-    flex-direction: column;
+
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(70deg,#e92efb,#440bd4);
     
 }
 .main{
-    height: max-content;
-    background: linear-gradient(70deg,#e92efb,#440bd4);
+    min-height: max-content;
+   
+    
 }
 h2{
     color: white;
-    margin: 20px;
+    margin: 0px auto 50px auto;
 }
 h3 {
     color: white;
@@ -75,7 +76,7 @@ input {
 #P{grid-area:"P";}
 
 .contenedor2 {
-    display: grid;
+  display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "t g a j w z" "T G A J W Z";
