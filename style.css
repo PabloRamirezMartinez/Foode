@@ -8,9 +8,14 @@ body{
 
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(70deg,#e92efb,#440bd4);
+    
+ 
     
 }    
+.main {
+    background: linear-gradient(70deg,#e92efb,#440bd4);
+    height: 100vh;
+}
 
 h2{
     color: white;
@@ -100,12 +105,14 @@ label {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px auto;
+    margin: 25px auto;
+    
 
 }
 #tabla1 #tabla2 {
     display: flex;
     margin: 50px auto;
+    padding-bottom: 50px;
     border-radius: 15px;
     width: 50vw;
    
@@ -157,25 +164,51 @@ tr th {
     
 
 }
+footer{
+    display: flex;
+    background-color: #8d01ff;
+    color: #5900ff;
+    height: 50px;
+    width: 100vw;
+    bottom: 0;
+    position: static;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
 
 @media (max-width:900px){
+    *{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
     .main{
         padding-top: 100px;
         width: 100vw;
+        height: auto;
+        
     }
     .body {
         width: 100vw;
+        
     }
     .titulo{
         font-size: 50px;
     }
+    #tabla1 #tabla2 {
+        display: flex;
+        padding-bottom: 50px;
+        border-radius: 15px;
+        width: 50vw;
+       
+    }
     .contenedor1{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 0.7fr 0.7fr 0.7fr;
         grid-template-areas: "x r y" "s l p" "X R Y" "S L P";
-        width: 100vw;
+        width: 95vw;
         margin: 0px auto;
+        align-items: center;
       }
       
       .x {grid-area:"x"}
@@ -195,9 +228,9 @@ tr th {
       .contenedor2 {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 0.7fr 0.7fr 0.7fr;
         grid-template-areas: "t g a" "j w z" "T G A" "J W Z";
-        width: 100vw;
+        width: 95vw;
         margin: 0px auto;;
       }
       .t{grid-area:"t"}
@@ -223,7 +256,24 @@ tr th {
           margin-bottom: 50px;
       }
       input {
-          width: 140px;
+          width: 25vw;
           height: 60px;
+      }
+      .contenedor {
+          padding-bottom: 50px;
+      }
+      footer{
+          display: flex;
+          background-color: #8d01ff;
+          color: #5900ff;
+          height: 50px;
+          width: 100vw;
+          bottom: 0;
+          position: static;
+          z-index: 3;
+          align-items: center;
+          justify-content: center;
+          
+          
       }
 }
