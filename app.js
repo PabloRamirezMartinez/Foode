@@ -60,7 +60,7 @@ x = g+5;
 w = a*x;
 t = s+p-j;
 j = t+l;
-z = p*r+y;
+z = (p*r)+y;
 y = y+z;
 y = y+1;
 }
