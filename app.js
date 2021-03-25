@@ -67,13 +67,13 @@ y = y+1;
    //operaciones ejercicio 2;
 if (operacion ==2 ){
     x = x+a-w;
-    s = x-j*z;
+    s = x-(j*z);
     r = r+1;
     y = r-x+2;
     l = y+l;
-    t = g+j-z*3;
+    t = g+j-(z*3);
     w = w+5;
-    j = j+z/x+2;
+    j = (j+z)/(x+2);
 }
 
     //resultados finales
